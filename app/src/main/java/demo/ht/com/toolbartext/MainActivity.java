@@ -202,7 +202,6 @@ public class MainActivity extends AppCompatActivity {
         PopupMenu popupMenu=new PopupMenu(MainActivity.this,view);//1.实例化PopupMenu
         getMenuInflater().inflate(R.menu.popup_menu,popupMenu.getMenu());//2.加载Menu资源
 
-
         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
